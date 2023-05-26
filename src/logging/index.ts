@@ -8,7 +8,7 @@ const logger = winston.createLogger({
     transports: [
         new winston.transports.Console({}),
         new winston.transports.File({
-            filename: "log",
+            filename: "logs/log",
             tailable: true,
 
         })
