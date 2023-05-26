@@ -1,6 +1,6 @@
 {
-  "name": "dhis2-node-script",
-  "description": "A node script template for scripts used to interact with DHIS2",
+  "name": "node-script-template",
+  "description": "A node script template for scripts used to interact with DHIS2 API",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
