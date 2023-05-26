@@ -1,10 +1,5 @@
 import {config} from "dotenv";
-import {helloProgram} from "./commands/hello";
+import program from "./commands";
 
 config()
-helloProgram.parse(process.argv)
-
-
-
-
-
+program.parse(process.argv)

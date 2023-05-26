@@ -8,7 +8,7 @@ const username = process.env.DHIS2_USERNAME ?? ""
 const password = process.env.DHIS2_PASSWORD ?? ""
 
 const dhis2Client = axios.create({
-    baseURL,
+    baseURL: `${baseURL}/api/`,
     auth: {
         username,
         password

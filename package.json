@@ -14,7 +14,8 @@
     "winston": "^3.8.2"
   },
   "scripts": {
-    "dev": "ts-node src/index.ts say-hi --name 'HISP Tanzania'"
+    "hello": "ts-node src/index.ts say-hi --name 'HISP Tanzania'",
+    "dhis2-info": "ts-node src/index.ts dhis2-info"
   },
   "devDependencies": {
     "@types/async": "^3.2.20",
