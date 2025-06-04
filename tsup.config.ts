@@ -19,7 +19,7 @@ export default defineConfig({
 		noExternal: [/(.*)/],
 		onSuccess: async () => {
 				if (fs.existsSync("./bundle")) {
-						fs.rmdirSync("./bundle");
+						fs.rmdirSync("./bundle", {recursive: true});
 				}
 				fs.mkdirSync("./bundle")
 
