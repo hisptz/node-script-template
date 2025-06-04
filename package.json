@@ -16,14 +16,15 @@
   "scripts": {
     "hello": "ts-node src/index.ts say-hi --name 'HISP Tanzania'",
     "dhis2-info": "ts-node src/index.ts dhis2-info",
-    "build": "webpack",
-    "postbuild": "./package.sh"
+    "build": "tsup"
   },
   "devDependencies": {
     "@types/async": "^3.2.24",
     "@types/node": "^22.13.13",
     "bestzip": "^2.2.1",
     "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "pnpm@10.11.0"
 }
